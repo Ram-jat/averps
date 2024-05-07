@@ -1,0 +1,269 @@
+.header-section {
+    position: relative;
+}
+
+.header-logo img {
+    width: 240px;
+    height: 100%;
+    /* filter: contrast(0.1); */
+
+}
+
+
+/* .header-logo {
+    /* border-right: 1px solid black; */
+/* padding-right: 10px; */
+/* } */
+
+.container-fluid {
+    position: absolute;
+    top: 0;
+    width: 100;
+    left: 0;
+}
+
+.header-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+}
+
+.main-row {
+    height: 100vh;
+}
+
+.about {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about:hover {
+    color: white !important;
+
+}
+
+.tow-col {
+    display: grid;
+    grid-template-rows: 4fr 6fr;
+}
+
+.about-1 {
+    /* border-bottom:1px solid white ; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.about-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid white;
+}
+
+.colsm-1 {
+    border-right: 1px solid white;
+}
+
+.header-content-2 {
+    display: grid;
+    grid-template-rows: 6fr 4fr;
+    border-bottom: 1px solid white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* .row-1-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+} */
+.past {
+    font-size: 19px;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.button-1 {
+    padding: 15px 210px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: unset;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.button-1 a {
+    text-decoration: none;
+}
+
+.section-row {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+    gap: 30px;
+}
+
+.min-col-3 {
+    background-color: rgb(0 78 158);
+    color: white;
+    border-radius: 10px;
+
+}
+
+.min-col-4 {
+    border-radius: 10px;
+
+}
+
+.min-col-4:hover {
+    background-color: rgb(0 78 158);
+    color: white;
+}
+
+.display-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.display-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+
+}
+
+.nav-tabs {
+    border-bottom: unset !important;
+    justify-content: end !important;
+}
+
+.nav-tabs .nav-link {
+    border-color: transparent !important;
+    isolation: isolate;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: transparent !important;
+    isolation: isolate;
+}
+
+.nav-link {
+    color: #004e9e;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.Past {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.see {
+    padding: 21px 239px;
+    border: unset;
+    border-radius: 5px;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: unset !important;
+    outline: 0;
+    box-shadow: unset !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: unset !important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(  ) !important;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform 0.2s ease-in-out 0s;
+}
+.accordion-button{
+    color: black;
+}
+.pergrap{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    text-align: center;
+    /* box-shadow: 0px 0px 5px black; */
+    
+}
+.times{
+    display: flex;
+    font-size: 50px;
+    gap: 30px;
+    
+}
+.timess{
+    display: flex;
+    font-size: 50px;
+    gap: 30px;
+    
+}
+
+
+
+
+
